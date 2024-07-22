@@ -1,0 +1,41 @@
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+  }
+  .appInput {
+    width: 40%;
+    min-width: 250px;
+    padding: 1em 2em;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border:none;
+    background-color: var(--brand-o-color);
+    outline: none;
+    color: var(--light-color);
+  }
+  .appInput::placeholder{
+    color: var(--light-color);
+  }
+  .appRemoveAll {
+    position: absolute;
+    background-color:var(--brand-o-color);
+    color: var(--light-color);
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    right: 2rem;
+    top: 6rem;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  .appRemoveAll:hover {
+    color: var(--light-color);
+    background-color:var(--brand-color);  }
+  

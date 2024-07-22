@@ -1,0 +1,19 @@
+:root {
+    --brand-color: #0ea5e9;
+    --dark-color: #0f172a;
+    --mid-color: #cbd5e1;
+    --light-color: #ffffff;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .appHeader {
+    background-color: var(--brand-color);
+  }
+  .appTitle {
+    color: var(--light-color);
+    text-align: center;
+    padding: 0.5em;
+  }
+  
